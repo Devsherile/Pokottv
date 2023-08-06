@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.4s ease-in;
+}
+body{
+    font-family: "Robot", sans-serif;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #0652dd;
+}
+a:hover{
+    color: #ea2027;
+}
+.fist{
+    color: #ea2027;
+}
+.pokot{
+    color: #0652dd;
+}
+.tv{
+    color: #ea2027;
+}
+nav{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.hamburger{
+    display: none;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 500;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    margin-left: 2rem;
+}
+.nav-link{
+    font-weight: 600;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+p{
+    color: #ea2027;
+}
+span{
+    color: #0652dd;
+    font-weight: bold;
+    font-size: larger;
+}
+.home{
+    padding: 200px;
+}
+button{
+    padding: 15px;
+    background-color: #0652dd;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+}
+.red:hover{
+    background-color: #f1262f;
+    color: #fff;
+}
+.blue:hover{
+    background-color: #095cf7;
+    color: #fff;
+}
+.about{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0;
+    background: url(assets/lotodopkosing.jpg) ;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    height: 800px;
+}
+.about h3{
+    font-size: 3em;
+    margin-bottom: -20px;
+    
+}
+.about p{
+    font-size: 1.5em;
+}
+.about h3{
+    text-shadow: 2px 2px 2px #333;
+}
+.about p{
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 2px #333;
+}
+.image {
+    height: 300px;
+    width: 500px;
+}
+
+.stars-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.stars-gallery a {
+    margin-bottom: 20px;
+}
+.persons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.person-1,
+.person-2 {
+    text-align: center;
+}
+
+.persons img {
+    margin-bottom: 10px;
+}
+.name{
+    color: #0652dd;
+    text-align: center;
+}
+.role{
+    color: #ea2027;
+    text-align: center;
+    font-size: 20px;
+}
