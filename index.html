@@ -105,7 +105,7 @@
         <section class="sub" id="sub">
             <h3>Subscribe to our newsletter for updates</h3>
             <form action="#">
-                <input type="email" name="email" id="email-sub" class="email-sub" required>
+                <input type="email" placeholder="Enter Email Address" name="email" id="email-sub" class="email-sub" required>
                 <input type="submit" value="subscribe" id="submit-btn" class="submit-btn">
             </form>
         </section>
@@ -117,6 +117,19 @@
             <a href="#"><i class="fa-brands fa-facebook"></i></a>
         </div>
         </section>
+        <footer>&copy;2023,All Rights Reserved</footer>
+        <i class="fa-solid fa-arrow-up" id="scroll-up"></i>
+        <script>
+            const scrollUp =document.querySelector("scroll-Up");
+            scrollUp.addEventListener("click" , () =>{
+                window.scrollTo({
+                    top:0,
+                    left:0,
+                    behavior:"smooth",
+                });
+            });
+            
+        </script>
 
 
 </body>

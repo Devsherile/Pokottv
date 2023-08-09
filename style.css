@@ -1,32 +1,47 @@
-*{
+/* Reset some default styles and apply a transition */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     transition: 0.4s ease-in;
 }
-body{
-    font-family: "Robot", sans-serif;
+
+/* Set the font family for the entire page */
+body {
+    font-family: "Roboto", sans-serif;
 }
-ul li{
+
+/* Remove list bullet points */
+ul li {
     list-style: none;
 }
-a{
+
+/* Style links */
+a {
     text-decoration: none;
     color: #0652dd;
 }
-a:hover{
+
+/* Change link color on hover */
+a:hover {
     color: #ea2027;
 }
-.fist{
+
+/* Color variations for specific text */
+.fist {
     color: #ea2027;
 }
-.pokot{
+
+.pokot {
     color: #0652dd;
 }
-.tv{
+
+.tv {
     color: #ea2027;
 }
-nav{
+
+/* Style the navigation bar */
+nav {
     background: #fff;
     display: flex;
     justify-content: space-between;
@@ -34,46 +49,62 @@ nav{
     padding: 1rem 1.5rem;
     box-shadow: 2px 3px 2px #f1f1f1;
     position: sticky;
-    left: 0;
     top: 0;
     z-index: 1;
 }
-.hamburger{
+
+/* Hide the hamburger menu by default */
+.hamburger {
     display: none;
 }
-.logo{
+
+/* Style the logo */
+.logo {
     font-size: 2rem;
     font-weight: 500;
 }
-ul{
+
+/* Style navigation items */
+ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-item{
+
+.nav-item {
     margin-left: 2rem;
 }
-.nav-link{
+
+.nav-link {
     font-weight: 600;
 }
-section{
+
+/* Align and style sections */
+section {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
-p{
+
+/* Style specific elements within sections */
+p {
     color: #ea2027;
 }
-span{
+
+span {
     color: #0652dd;
     font-weight: bold;
     font-size: larger;
 }
-.home{
+
+/* Style the home section */
+.home {
     padding: 200px;
 }
-button{
+
+/* Style buttons */
+button {
     padding: 15px;
     background-color: #0652dd;
     color: #fff;
@@ -81,15 +112,20 @@ button{
     border-radius: 10px;
     border: none;
 }
-.red:hover{
+
+/* Change button color on hover */
+.red:hover {
     background-color: #f1262f;
     color: #fff;
 }
-.blue:hover{
+
+.blue:hover {
     background-color: #095cf7;
     color: #fff;
 }
-.about{
+
+/* Style the about section */
+.about {
     position: relative;
     display: flex;
     align-items: center;
@@ -97,32 +133,31 @@ button{
     flex-direction: column;
     gap: 1.5rem;
     margin: 2rem 0;
-    background: url(assets/lotodopkosing.jpg) ;
+    background: url(assets/lotodopkosing.jpg);
     background-repeat: no-repeat;
-    /* background-position: center; */
     background-size: cover;
     height: 800px;
 }
-.about h3{
+
+/* Style headings and text in the about section */
+.about h3 {
     font-size: 3em;
     margin-bottom: -20px;
-    
-}
-.about p{
-    font-size: 1.5em;
-}
-.about h3{
     text-shadow: 2px 2px 2px #333;
 }
-.about p{
+
+.about p {
     font-size: 1.8rem;
     text-shadow: 2px 2px 2px #333;
 }
+
+/* Style images with the same height and width */
 .image {
     height: 300px;
     width: 500px;
 }
 
+/* Style the stars gallery */
 .stars-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -132,6 +167,8 @@ button{
 .stars-gallery a {
     margin-bottom: 20px;
 }
+
+/* Style the persons section */
 .persons {
     display: flex;
     justify-content: space-between;
@@ -145,46 +182,64 @@ button{
 .persons img {
     margin-bottom: 10px;
 }
-.name{
+
+/* Style names and roles */
+.name {
     color: #0652dd;
     text-align: center;
 }
-.role{
+
+.role {
     color: #ea2027;
     text-align: center;
     font-size: 20px;
 }
-.sub h3{
+
+/* Style the subscription section */
+.sub h3 {
     text-align: center;
 }
-form{
+.sub{
+    display: block;
+}
+#email-sub{
+    padding: 8px;
+}
+
+form {
     text-align: center;
 }
-.email-sub{
+
+.email-sub {
     padding: 2px;
     border-radius: 4px;
     border: 1px solid #ea2027;
     outline: none;
 }
-.submit-btn{
+
+.submit-btn {
     background-color: #0652dd;
     color: #fff;
     padding: 5px;
     margin: 10px;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
 }
-.submit-btn:hover{
+
+.submit-btn:hover {
     background-color: #095cf7;
 }
-.social{
+
+/* Style social media icons section */
+.social {
     text-align: center;
     margin: 10px;
     display: flex;
     flex-direction: column;
 }
-.socialicons a{
+
+.socialicons a {
     font-size: 25px;
     justify-content: space-evenly;
     display: flexbox;
@@ -193,4 +248,22 @@ form{
     padding: 10px;
     margin-left: 10px;
     align-items: center;
+}
+
+/* Style the footer */
+footer {
+    border-top: 1px solid #0652dd;
+    box-shadow: 0px -2px 3px #f1f1f1;
+    text-align: center;
+    padding: 2px;
+}
+
+/* Style the scroll-up button */
+#scroll-up {
+    max-height: 300px;
+    max-width: 500px;
+
+
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
